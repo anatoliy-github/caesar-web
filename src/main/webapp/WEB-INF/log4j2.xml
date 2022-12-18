@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration status="ALL" name="ServletLogging">
+
+    <Appenders>
+        <Console name="Console" targer="SYSTEM_OUT">
+            <PatternLayout pattern="%m%n%ex{none}"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <Root level="all">
+            <AppenderRef ref="Console"/>
+        </Root>
+    </Loggers>
+
+</Configuration>

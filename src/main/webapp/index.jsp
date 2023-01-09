@@ -39,8 +39,8 @@
                         <input type="number" class="form-control" id="key" name="key" value="${key}" min="0" max="${length_alphabet}" required>
                     </div>
                     <div class="mt-2">
-                        <button class="btn btn-secondary" type="submit" formaction="encrypt">Encrypt text</button>
-                        <button class="btn btn-warning" type="submit" formaction="decrypt">Decrypt text</button>
+                        <button class="btn btn-secondary" type="submit" formaction="./encrypt">Encrypt text</button>
+                        <button class="btn btn-warning" type="submit" formaction="./decrypt">Decrypt text</button>
                     </div>
                 </div>
             </form>
@@ -66,7 +66,7 @@
                     <label for="file_bf" class="form-label">Upload your text file:</label>
                     <input class="form-control" id="file_bf" type="file" name="file_bf" accept="application/msword,text/plain,.docx">
                 </div>
-                    <button class="btn btn-success mt-3" type="submit" formaction="bruteforce">Decrypt</button>
+                    <button class="btn btn-success mt-3" type="submit" formaction="./bruteforce">Decrypt</button>
             </form>
             <div class="mt-3">
                 <p class="mb-2 text-danger lead">Result of decryption Brute force:</p>
